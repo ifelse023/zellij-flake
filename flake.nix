@@ -17,7 +17,7 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         zellij = pkgs.rustPlatform.buildRustPackage rec {
-          version = "git";
+          version = "0.43.0";
           pname = "zellij";
           name = "zellij";
 
